@@ -1,0 +1,20 @@
+{
+  "name": "aqa-advanced",
+  "version": "1.0.0",
+  "description": "My first JavaScript project ",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nmp",
+    "example",
+    "key"
+  ],
+  "author": "Tetiana Zholudova",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "type": "module"
+}
