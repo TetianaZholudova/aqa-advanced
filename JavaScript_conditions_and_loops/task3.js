@@ -1,5 +1,5 @@
 const number = 8
-for (i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
     console.log(`8 x ${i} =`, number * i)
   }
 
