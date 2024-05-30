@@ -1,3 +1,15 @@
+Functions_and_Patterns
+urn//task 4.1
+let radius1 = 16.7; 
+let areaOfCircle = Math.PI * Math.pow(radius1, 2);  
+console.log('Area of circle is', areaOfCircle.toFixed(2));   
+
+//task 4.3
+let radius2 = 16;
+let height2 = 12;  
+let VolumeOfCylinder = Math.PI * Math.pow(radius2, 2) * height2;  
+console.log('Volume Of Cylinder is', VolumeOfCylinder.toFixed(2));  
+
 //let text = 'The website url is https://www.npmjs.com/search?q=chalk';
 //console.log(text.slice(text.indexOf('chalk'), -2));
 
@@ -92,3 +104,4 @@ const { Console } = require("console");
 //let personAge = 25; 
 //console.log(personAge>=18 ? 'User is adult' :'User is not adult')
 
+main
