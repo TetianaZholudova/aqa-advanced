@@ -15,7 +15,7 @@ function divideNumbers(numerator, denominator){
 }
 
 try {
-    console.log(divideNumbers(40, 0))
+    console.log(divideNumbers(40, 8))
 } 
 catch (error) {
     console.error(error.message);
