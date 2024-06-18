@@ -17,5 +17,5 @@ else
 console.log('An error occured')
 
 }
-handleNum(8, handleEven, handleOdd)  
+handleNum(9, handleEven, handleOdd)  
   
