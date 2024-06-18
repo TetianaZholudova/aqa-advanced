@@ -1,0 +1,25 @@
+class Book {
+    constructor(title) {
+        this.title = title;
+    }
+
+    get title() {
+        return this._title;
+    }
+
+    set title(value) {
+        if (typeof value === 'string') {
+            this._title = value;
+        } else {
+            throw new Error('Title must be a non-empty string');
+        }
+    }
+
+    printInfo() {
+        console.log(`Title: ${this.title}`);
+    }
+}
+
+// Test the Book class
+let book1 = new Book(456);
+book1.printInfo(); 
